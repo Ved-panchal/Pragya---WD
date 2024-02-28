@@ -10,13 +10,13 @@ console.log(addOne(3))
 */
 
         // 2 - Function expression
-/*
+
 const addTwo = function addTwo(num){
     return num + 2 
 }
     
 console.log(addTwo(3))
-*/
+
 
     
 // Note : the main taught till now between these two is 
