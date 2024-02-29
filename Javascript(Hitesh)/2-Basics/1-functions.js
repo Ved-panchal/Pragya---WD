@@ -10,7 +10,7 @@ result = addTwoNumbers(4,4)
 console.log(result);
 */
 
-                // 2 - Normal working + some `` usage explaination
+                // 2 - Normal working +  `` usage explaination
 /*
 function loginUserMessage(username){    
     // return (username + " just logged in" )

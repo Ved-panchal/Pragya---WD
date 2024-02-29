@@ -1,4 +1,5 @@
-                // 1 -  (for of) loop
+//  confusion
+ // 1 -  (for of) loop
 
 
 // (for of) in arrays
@@ -71,10 +72,51 @@ for(const i in arr){
 
 
                 // 4 - (for each) loop
-
+/*
 // (for each) loop in arrays
+
 const coding = ["js" , "ruby" , "java" , "python"]
 
 coding.forEach( function(val){
     console.log(val)
 })
+
+// (for each) loop in arrays
+
+coding.forEach(  (item) => {
+    console.log(item);
+} )
+
+
+// one more way
+
+function printMe(item){
+    console.log(item)
+}
+
+coding.forEach(printMe)
+*/
+
+
+// for each loop in objects
+/*
+const myCoding = [
+    {
+        languageName : "Javascript" ,
+        languageFileName : "js" 
+    },
+    {
+        languageName : "Java" ,
+        languageFileName : "java" 
+    },
+    {
+        languageName : "python" ,
+        languageFileName : "py" 
+    }
+
+]
+
+myCoding.forEach( (item)=> {
+    console.log(item.languageName)
+} )
+*/
