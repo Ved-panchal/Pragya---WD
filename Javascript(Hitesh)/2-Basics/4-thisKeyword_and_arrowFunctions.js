@@ -75,3 +75,10 @@ but when you use parenthesis () you dont have to write  the return keyword.
 so we may call it as "implicit return"  when we are not writing return keyword
 and  we may call it as "explicit return"  when we are writing return keyword
 */
+
+
+
+function example(){
+    console.log("inside a function")
+
+}
