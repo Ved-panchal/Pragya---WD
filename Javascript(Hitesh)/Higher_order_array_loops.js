@@ -72,5 +72,9 @@ for(const i in arr){
 
                 // 4 - (for each) loop
 
-
+// (for each) loop in arrays
 const coding = ["js" , "ruby" , "java" , "python"]
+
+coding.forEach( function(val){
+    console.log(val)
+})
