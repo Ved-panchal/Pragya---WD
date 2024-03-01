@@ -72,6 +72,7 @@ for(const i in arr){
 
 
                 // 4 - (for each) loop
+// Note : (for each) loop does not return any value
 /*
 // (for each) loop in arrays
 
