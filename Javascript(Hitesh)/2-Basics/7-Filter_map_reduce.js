@@ -4,7 +4,7 @@
 // JavaScript's `filter()` method creates a new array by selecting elements that meet a specified condition set by a provided function.
 /*
 
-                // Using filter in arrays
+                // 1(a) - Using filter in arrays
                 
                 const myNums = [1,2,3,4,5,6,7,8,9,10]
 
@@ -24,9 +24,10 @@ console.log(newNums2)
 
 
 
-                // 2 - Using filter in arrays with (for each) loop
-
+                // 1(b) - Using filter in arrays with (for each) loop
+/*
 const myNums = [1,2,3,4,5,6,7,8,9,10]
+
 
 // Applying Filtering in arrays using (for each) loop
 myNums.forEach( (nums)=> {
@@ -34,8 +35,10 @@ myNums.forEach( (nums)=> {
         console.log(nums)
     }
 })
+*/
 
 // Applying Filtering in arrays using (for each) loop and storing the filtered elements in the new array
+/*
 const newNums = []
 
 myNums.forEach( (num)=> {
@@ -44,3 +47,65 @@ myNums.forEach( (num)=> {
     }
 })
 console.log(newNums)
+*/
+
+
+
+                // 2 - Maps (discusses earlier also)
+/*
+const myNums = [1,2,3,4,5,6,7,8,9,10]
+
+// const newNums = myNums.map( (num)=> num + 1)
+
+// console.log(newNums);
+
+const newNums = myNums.forEach( (num) => {
+    return num + 1 
+})
+console.log(newNums);
+*/
+
+                 // 3 - Chaining
+// To understand = Hitesh video 'Filter map reduce' timestamps 20:55/38:45
+// Note : Chaining means using more methods simultaneosly
+
+/*
+
+// normal 
+const myNums = [1,2,3,4,5,6,7,8,9,10]
+
+const newNums = myNums.map( (nums) => nums*10 )
+console.log(newNums)
+
+// applying one more map onto a map ie chaininng
+const newNums2 = myNums.map( (nums) => nums*10 ).map( (num) => num + 1)
+console.log(newNums2)
+
+// applying filer on map  ie again chaininng
+const newNums3 = myNums.map( (nums) => nums*10 ).map( (num) => num + 1).filter((num) => num>40)
+console.log(newNums3)
+
+
+// Now the entire above chaining can be writtenn like this also
+const newNums4 = myNums.map( (nums) => nums*10 )
+                 .map( (num) => num + 1)
+                 .filter((num) => num>40)
+console.log(newNums4)
+
+*/
+
+
+// Imp Note : Higher order array loops are : maps , filter() , reduce() , sort()  , forEach()  
+// and some of already discusses in previous files
+
+                // 4 - Reduce - 
+// skipped for now , understand when needed
+/*
+const myNums = [1,2,3]
+
+const myTotal = myNums.reduce( function(acc , currval){
+    return acc + currval
+} , 0)
+
+console.log(myTotal)
+*/
