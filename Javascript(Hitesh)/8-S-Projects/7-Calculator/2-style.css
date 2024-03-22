@@ -47,8 +47,15 @@ form .display input{
     text-align: right;
     flex: 1;
     box-shadow: none;
+    background-color: rgb(177, 228, 215);
+    /* user-select: none; */
 } 
 
 form input.equal{
     width: 120px;
+}
+
+
+.sBtns{
+    color: rgb(22, 177, 146);
 }
