@@ -1,3 +1,5 @@
+import logo from "../images/nikeLogo.png";
+
 function Navigation(){
 
 
@@ -7,7 +9,7 @@ function Navigation(){
 
         {/* left nikeLogo image  */}
         <div className="nikeLogo">
-          <img src="./images/nikeLogo.png" alt="Nike logo" />
+          <img src={logo} alt="Nike logo" />
         </div>
 
         {/* middle menu */}
@@ -20,7 +22,6 @@ function Navigation(){
 
         {/* right login button  */}
         <button>Login</button>
-        
       </nav>
     )
 
