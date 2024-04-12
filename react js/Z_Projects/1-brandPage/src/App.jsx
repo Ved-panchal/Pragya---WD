@@ -1,6 +1,6 @@
 import "./App.css"
-import HeroSection from "../Components/HeroSection"
-import Navigation from "../Components/Navigation";
+import HeroSection from "./Components/HeroSection"
+import Navigation from "./Components/Navigation"
 function App() {
   return (
     <div className="container">
@@ -10,4 +10,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; 

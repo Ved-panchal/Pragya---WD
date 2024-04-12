@@ -7,7 +7,7 @@ function Navigation(){
 
         {/* left nikeLogo image  */}
         <div className="nikeLogo">
-          <img src="/images/nikeLogo.png" alt="" />
+          <img src="./images/nikeLogo.png" alt="Nike logo" />
         </div>
 
         {/* middle menu */}
